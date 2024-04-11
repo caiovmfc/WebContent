@@ -8,6 +8,26 @@ function App() {
 
   return (
     <>
+    <div className='rectangle5'>
+    </div>
+    <div className='rectangle26'>
+    </div>
+    <img src="./src/images/banner-hero.jpg"/>
+    <text className='werehere'>
+      we're here to help
+    </text>
+    <text className='bigtext'>
+      When it comes to caring for our most intimate areas, we’ve lost our connection.
+      Embarrassed, unwilling, or unable to communicate with others, we’re needlessly neglecting 
+      the parts of our bodies that need it most. We’re here to help. Providing you with the 
+      expertise, knowledge and products you need to feel confident in your personal care.
+    </text>
+    </>
+  )
+
+  /*
+  return (
+    <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -33,6 +53,7 @@ function App() {
       </text>
     </>
   )
+  */
 }
 
 export default App
