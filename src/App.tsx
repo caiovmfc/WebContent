@@ -15,7 +15,20 @@ function App() {
         </button>
       </div>
       <div className='rectangle26'>
+        <button className='bluebuttons' style={{marginLeft: '28.6%'}}>
+          about us ↓
+        </button>
+        <button className='bluebuttons'>
+          our products ↓
+        </button>
+        <button className='bluebuttons'>
+          intimate health ↓
+        </button>
+        <button className='bluebuttons'>
+          contact us
+        </button>
       </div>
+      <div className='rectangle26extra'></div>
       <img src="./src/images/banner-hero.jpg"/>
       <div className='block1'>
         <text className='werehere'>
