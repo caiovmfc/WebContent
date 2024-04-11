@@ -80,11 +80,32 @@ button {
   opacity: 0;
 }
 
-.rectangle26:hover + .rectangle26extra {
+.bluebuttons {
+  top: 81px;
+  left: 1211px;
+  width: 10%;
+  height: 47px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 16px/22px Trebuchet MS;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  margin-left: 1%;
+  border: transparent;
+
+  background-color: #389CD6;
+}
+
+.bluebuttons:hover ~ .rectangle26extra {
   opacity: 1;
 }
 
-.bluebuttons {
+.simplebluebutton {
   top: 81px;
   left: 1211px;
   width: 10%;

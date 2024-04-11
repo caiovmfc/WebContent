@@ -24,11 +24,11 @@ function App() {
         <button className='bluebuttons'>
           intimate health ↓
         </button>
-        <button className='bluebuttons'>
+        <button className='simplebluebutton'>
           contact us
         </button>
-      </div>
       <div className='rectangle26extra'></div>
+      </div>
       <img src="./src/images/banner-hero.jpg"/>
       <div className='block1'>
         <text className='werehere'>
