@@ -9,6 +9,10 @@
   opacity: 1;
 }
 
+button {
+  cursor: pointer;
+}
+
 .rectangle5 {
   top: 0px;
   left: 0px;
@@ -18,6 +22,36 @@
   background: var(--white) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 4px 16px #00000014;
+  opacity: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+.imgheader {
+  margin-left: 45%;
+}
+
+.buttonheader {
+  top: 16px;
+  left: 1469px;
+  width: 48px;
+  height: 48px;
+
+  opacity: 1;
+  margin-left: 21%;
+
+  border: transparent;
+  background: transparent;
+}
+
+.icsearch {
+  top: 28px;
+  left: 1481px;
+  width: 24px;
+  height: 24px;
+
+  background: transparent url('./images/icsearch.jpg') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 

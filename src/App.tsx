@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <div className='rectangle5'>
-        <img src="./src/images/Module1Header.jpg"/>
-        <button>
-        <img src="./src/images/icsearch.jpg"/>
+        <img src="./src/images/Module1Header.jpg" className='imgheader'/>
+        <button className='buttonheader'>
+          <img src="./src/images/icsearch.jpg" className='icsearch'/>
         </button>
       </div>
       <div className='rectangle26'>
