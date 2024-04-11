@@ -15,19 +15,54 @@ function App() {
         </button>
       </div>
       <div className='rectangle26'>
-        <button className='bluebuttons' style={{marginLeft: '28.6%'}}>
+        <button className='bluebuttons1' style={{marginLeft: '28.6%'}}>
           about us ↓
         </button>
-        <button className='bluebuttons'>
+        <button className='bluebuttons2'>
           our products ↓
         </button>
-        <button className='bluebuttons'>
+        <button className='bluebuttons3'>
           intimate health ↓
         </button>
         <button className='simplebluebutton'>
           contact us
         </button>
-      <div className='rectangle26extra'></div>
+      <div className='rectangle26extra1'>
+        <button className='graybuttons' style={{marginLeft: '21%'}}>
+          brand philosophy
+        </button>
+        <button className='graybuttons'>
+          product technology
+        </button>
+      </div>
+      <div className='rectangle26extra2'>
+        <button className='graybuttons' style={{marginLeft: '21%'}}>
+          all products
+        </button>
+        <button className='graybuttons'>
+          intibiome wellness
+        </button>
+        <button className='graybuttons'>
+          intibiome active
+        </button>
+        <button className='graybuttons'>
+          intibiome agecare
+        </button>
+      </div>
+      <div className='rectangle26extra3'>
+        <button className='graybuttons' style={{marginLeft: '21%'}}>
+          article 1
+        </button>
+        <button className='graybuttons'>
+          article 2
+        </button>
+        <button className='graybuttons'>
+          article 3
+        </button>
+        <button className='graybuttons'>
+          faq
+        </button>
+      </div>
       </div>
       <img src="./src/images/banner-hero.jpg"/>
       <div className='block1'>

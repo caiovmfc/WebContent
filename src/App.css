@@ -66,7 +66,7 @@ button {
   opacity: 1;
 }
 
-.rectangle26extra {
+.rectangle26extra1 {
   position: absolute;
   top: 138px;
   left: 7px;
@@ -80,7 +80,35 @@ button {
   opacity: 0;
 }
 
-.bluebuttons {
+.rectangle26extra2 {
+  position: absolute;
+  top: 138px;
+  left: 7px;
+  width: 1920px;
+  height: 49px;
+
+  background: var(--unnamed-color-389cd6) 0% 0% no-repeat padding-box;
+  background: #9D8E8E 0% 0% no-repeat padding-box;
+  z-index: 2;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.rectangle26extra3 {
+  position: absolute;
+  top: 138px;
+  left: 7px;
+  width: 1920px;
+  height: 49px;
+
+  background: var(--unnamed-color-389cd6) 0% 0% no-repeat padding-box;
+  background: #9D8E8E 0% 0% no-repeat padding-box;
+  z-index: 2;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.bluebuttons1 {
   top: 81px;
   left: 1211px;
   width: 10%;
@@ -101,7 +129,57 @@ button {
   background-color: #389CD6;
 }
 
-.bluebuttons:hover ~ .rectangle26extra {
+.bluebuttons2 {
+  top: 81px;
+  left: 1211px;
+  width: 10%;
+  height: 47px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 16px/22px Trebuchet MS;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  margin-left: 1%;
+  border: transparent;
+
+  background-color: #389CD6;
+}
+
+.bluebuttons3 {
+  top: 81px;
+  left: 1211px;
+  width: 10%;
+  height: 47px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 16px/22px Trebuchet MS;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  margin-left: 1%;
+  border: transparent;
+
+  background-color: #389CD6;
+}
+
+.bluebuttons1:hover ~ .rectangle26extra1 {
+  opacity: 1;
+}
+
+.bluebuttons2:hover ~ .rectangle26extra2 {
+  opacity: 1;
+}
+
+.bluebuttons3:hover ~ .rectangle26extra3 {
   opacity: 1;
 }
 
@@ -124,6 +202,29 @@ button {
   border: transparent;
 
   background-color: #389CD6;
+}
+
+.graybuttons {
+  top: 81px;
+  left: 1211px;
+  width: 10%;
+  height: 47px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 16px/22px Trebuchet MS;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  margin-left: 1%;
+  border: transparent;
+
+  background-color: #9D8E8E;
+
+  cursor: default;
 }
 
 .banner-hero {
