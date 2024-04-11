@@ -76,10 +76,25 @@ button {
   opacity: 1;
 }
 
+.block1 {
+  top: 759px;
+  left: 588px;
+  width: 550px;
+  height: 350px;
+
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 .werehere {
   top: 759px;
   left: 782px;
-  width: 356px;
+  width: 550px;
   height: 46px;
 
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-50) var(--unnamed-font-family-trebuchet-ms);
@@ -87,6 +102,7 @@ button {
   color: var(--unnamed-color-389cd6);
   text-align: center;
   font: normal normal bold 39px/50px Trebuchet MS;
+  font-size: 34px;
   letter-spacing: 0.78px;
   color: #389CD6;
   opacity: 1;
@@ -106,21 +122,27 @@ button {
   letter-spacing: 0.4px;
   color: #7B7070;
   opacity: 1;
+
+  margin-top: 5%;
 }
 
 .block2 {
   top: 1475px;
   left: 588px;
-  width: 744px;
-  height: 287px;
+  width: 40%;
+  height: 10%;
 
   opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30%;
 }
 
 .whatever {
   top: 1475px;
   left: 588px;
-  width: 744px;
+  width: 100%;
   height: 96px;
 
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-50) var(--unnamed-font-family-trebuchet-ms);
@@ -128,16 +150,19 @@ button {
   color: var(--unnamed-color-389cd6);
   text-align: center;
   font: normal normal bold 39px/50px Trebuchet MS;
+  font-size: 34px;
   letter-spacing: 0.78px;
   color: #389CD6;
   opacity: 1;
+
+  margin-top: 8%;
 }
 
 .bigtext2 {
   top: 1611px;
   left: 588px;
   width: 744px;
-  height: 151px;
+  height: 50%;
   
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-trebuchet-ms);
   letter-spacing: var(--unnamed-character-spacing-0-4);
@@ -147,18 +172,22 @@ button {
   letter-spacing: 0.4px;
   color: #7B7070;
   opacity: 1;
+
+  margin-top: 5%;
 }
 
 .block3 {
   top: 1882px;
   left: 395px;
-  width: 1134px;
-  height: 657px;
+  width: 60%;
+  height: 18%;
 
   opacity: 1;
 
   display: flex;
   flex-wrap: wrap;
+  margin-left: 20%;
+  margin-bottom:4%;
 }
 
 .ourproducts {
@@ -172,11 +201,15 @@ button {
   color: var(--unnamed-color-389cd6);
   text-align: center;
   font: normal normal bold 39px/50px Trebuchet MS;
+  font-size: 34px;
   letter-spacing: 0.78px;
   color: #389CD6;
   opacity: 1;
 
+  margin-left: 20%;
   margin-right: 20%;
+  margin-top: 6%;
+  margin-bottom: 4%;
 }
 
 .card {
@@ -193,7 +226,11 @@ button {
   border-radius: 16px;
   opacity: 1;
 
-  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-left: 1.9%;
 }
 
 .cardtext {
@@ -210,6 +247,9 @@ button {
   letter-spacing: 0.4px;
   color: #7B7070;
   opacity: 1;
+
+  margin-top: 6%;
+  margin-bottom: 9.5%;
 }
 
 .cardsmallblock {
@@ -220,6 +260,11 @@ button {
 
   border-radius: 0px 0px 16px 16px;
   opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   margin-bottom: 0;
 }
@@ -239,24 +284,30 @@ button {
   color: #FFFFFF;
   text-transform: lowercase;
   opacity: 1;
+
+  margin-bottom: 2%;
 }
 
 .block4 {
   top: 3216px;
   left: 393px;
-  width: 1134px;
-  height: 632px;
+  width: 60%;
+  height: 15.6%;
 
   opacity: 1;
 
   display: flex;
   flex-wrap: wrap;
+
+  margin-top: 6%;
+  margin-left: 20%;
+  margin-bottom: 7%;
 }
 
 .keepup {
   top: 3216px;
-  left: 588px;
-  width: 744px;
+  left: 0;
+  width: 100%;
   height: 46px;
 
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-50) var(--unnamed-font-family-trebuchet-ms);
@@ -264,11 +315,12 @@ button {
   color: var(--unnamed-color-389cd6);
   text-align: center;
   font: normal normal bold 39px/50px Trebuchet MS;
+  font-size: 34px;
   letter-spacing: 0.78px;
   color: #389CD6;
   opacity: 1;
 
-  margin-right: 20%;
+  margin-bottom: 7%;
 }
 
 .card2 {
@@ -283,18 +335,61 @@ button {
   border-radius: 16px;
   opacity: 1;
 
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-left: 1.9%;
+  margin-bottom: 9%;
+}
+
+.card2text {
+  top: 3598px;
+  left: 815px;
+  width: 100%;
+  height: 51px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-4);
+  color: var(--dark-gray);
+  text-align: left;
+  font: normal normal normal 20px/28px Trebuchet MS;
+  letter-spacing: 0.4px;
+  color: #7B7070;
+  opacity: 1;
+
+  margin-top: 7%;
+  margin-left: 12%;
 }
 
 .seemorebutton {
   top: 3784px;
   left: 782px;
-  width: 356px;
-  height: 64px;
+  width: 40%;
+  height: 11%;
 
   background: var(--unnamed-color-389cd6) 0% 0% no-repeat padding-box;
   background: #389CD6 0% 0% no-repeat padding-box;
   border-radius: 16px;
+  opacity: 1;
+
+  margin-left: 30%;
+}
+
+.seemoretext {
+  top: 3804px;
+  left: 804px;
+  width: 312px;
+  height: 23px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-4);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 22px/28px Trebuchet MS;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  text-transform: lowercase;
   opacity: 1;
 }
 

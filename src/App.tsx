@@ -17,18 +17,18 @@ function App() {
       <div className='rectangle26'>
       </div>
       <img src="./src/images/banner-hero.jpg"/>
-      <div>
+      <div className='block1'>
         <text className='werehere'>
           we're here to help
         </text>
         <text className='bigtext1'>
-          When it comes to caring for our most intimate areas, we’ve lost our connection.
+          When it comes to caring for our most intimate areas, we’ve lost our connection.<br/><br/>
           Embarrassed, unwilling, or unable to communicate with others, we’re needlessly neglecting 
-          the parts of our bodies that need it most. We’re here to help. Providing you with the 
+          the parts of our bodies that need it most.<br/><br/> We’re here to help. Providing you with the 
           expertise, knowledge and products you need to feel confident in your personal care.
         </text>
       </div>
-      <img src="./src/images/icons.jpg"/>
+      <img src="./src/images/icons.jpg" style={{marginLeft: '20%'}}/>
       <div className='block2'>
         <text className='whatever'>
         whatever your age. whatever your lifestyle. whatever your interests.
@@ -36,7 +36,7 @@ function App() {
         <text className='bigtext2'>
         Co-created with gynaecologists, our revolutionary products have been expertly 
         developed to support your intimate microbiome and pH balance, and strengthen overall 
-        natural health. As the experts in intimate hygiene, we want to bring discussion 
+        natural health.<br/><br/> As the experts in intimate hygiene, we want to bring discussion 
         about intimate wellness care out of the dark and demystify the taboos that surround it.
         </text>
       </div>
@@ -85,24 +85,26 @@ function App() {
         </text>
         <div className='card2'>
           <img src="./src/images/ScreenShot1.jpg"/>
-          <text>
+          <text className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
         </div>
         <div className='card2'>
           <img src="./src/images/ScreenShot2.jpg"/>
-          <text>
+          <text  className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
         </div>
         <div className='card2'>
           <img src="./src/images/ScreenShot3.jpg"/>
-          <text>
+          <text className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
         </div>
         <button className='seemorebutton'>
+          <text className='seemoretext'>
           see more
+          </text>
         </button>
       </div>
       <div className='footer'>
