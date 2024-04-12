@@ -156,7 +156,21 @@ function App() {
         </button>
       </div>
       <div className='footer'>
-
+        <div className='footertext'>
+          <button className='footerbutton' style={{marginLeft: '1.5%'}}>contact us</button>
+          <text className='whitebar'>|</text>
+          <button className='footerbutton'>faq</button>
+          <text className='whitebar'>|</text>
+          <button className='footerbutton'>site map</button>
+          <text className='whitebar'>|</text>
+          <button className='footerbutton'>privacy police</button>
+          <text className='whitebar'>|</text>
+          <button className='footerbutton'>cookies policy</button>
+          <text className='whitebar'>|</text>
+          <button className='footerbutton'>legal notice</button>
+        </div>
+        <img src="./src/images/ulab.png" className='ulab'/>
+        <img src="./src/images/insta.png" className='insta'/>
       </div>
     </>
   )

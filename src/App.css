@@ -563,6 +563,67 @@ button {
   background: var(--unnamed-color-389cd6) 0% 0% no-repeat padding-box;
   background: #389CD6 0% 0% no-repeat padding-box;
   opacity: 1;
+
+  padding-top: 2%;
+}
+
+.footertext {
+  top: 4009px;
+  left: 527px;
+  width: 58%;
+  height: 47px;
+
+  opacity: 1;
+  margin-left: 21%;
+}
+
+.footerbutton {
+  top: 81px;
+  left: 1211px;
+  width: 12%;
+  height: 47px;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-trebuchet-ms);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 14px/22px Trebuchet MS;
+  letter-spacing: 0.32px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  margin-left: 2%;
+  border: transparent;
+
+  background-color: #389CD6;
+}
+
+.whitebar {
+  color: #FFFFFF;
+  font-size: 32px;
+  margin-left: 2%;
+}
+
+.ulab {
+  top: 4117px;
+  left: 394px;
+  width: 10%;
+  height: 25%;
+
+  opacity: 1;
+
+  margin-left: 13%;
+  margin-top: 4%;
+}
+
+.insta {
+  top: 4112px;
+  left: 1483px;
+  width: 3%;
+  height: 25%;
+
+  margin-left: 60%;
+  opacity: 1;
 }
 
 /*
