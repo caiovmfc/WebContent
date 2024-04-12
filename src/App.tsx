@@ -15,7 +15,7 @@ function App() {
         </button>
       </div>
       <div className='rectangle26'>
-        <button className='bluebuttons1' style={{marginLeft: '28.6%'}}>
+        <button className='bluebuttons1' style={{marginLeft: '24%'}}>
           about us ↓
         </button>
         <button className='bluebuttons2'>
@@ -64,7 +64,7 @@ function App() {
         </button>
       </div>
       </div>
-      <img src="./src/images/banner-hero.jpg"/>
+      <img src="./src/images/banner-hero.jpg" className='banner-hero'/>
       <div className='block1'>
         <text className='werehere'>
           we're here to help
@@ -76,7 +76,7 @@ function App() {
           expertise, knowledge and products you need to feel confident in your personal care.
         </text>
       </div>
-      <img src="./src/images/icons.jpg" style={{marginLeft: '20%'}}/>
+      <img src="./src/images/icons.jpg" style={{marginLeft: '20%', width: '60%'}}/>
       <div className='block2'>
         <text className='whatever'>
         whatever your age. whatever your lifestyle. whatever your interests.
@@ -92,59 +92,61 @@ function App() {
         <text className='ourproducts'>
           our products
         </text>
-        <div className='card'>
-          <img src="./src/images/image mask.jpg"/>
-          <text className='cardtext'>
-          intibiome wellness daily intimate wash
-          </text>
-          <div className='cardsmallblock' style={{backgroundColor: '#389CD6'}} >
-            <text className='smallblocktext'>
-              wellness
+        <div className='containercard'>
+          <div className='card'>
+            <img src="./src/images/image mask.jpg" style={{width: '100%', height: 'auto'}}/>
+            <text className='cardtext'>
+            intibiome wellness daily intimate wash
             </text>
+            <div className='cardsmallblock' style={{backgroundColor: '#389CD6'}} >
+              <text className='smallblocktext'>
+                wellness
+              </text>
+            </div>
           </div>
-        </div>
-        <div className='card'>
-          <img src="./src/images/image mask1.jpg"/>
-          <text className='cardtext'>
-          intibiome active extra protection intimate wash
-          </text>
-          <div className='cardsmallblock' style={{backgroundColor: '#309D5F'}} >
-            <text className='smallblocktext'>
-              active
+          <div className='card'>
+            <img src="./src/images/image mask1.jpg" style={{width: '100%', height: 'auto'}}/>
+            <text className='cardtext'>
+            intibiome active extra protection intimate wash
             </text>
+            <div className='cardsmallblock' style={{backgroundColor: '#309D5F'}} >
+              <text className='smallblocktext'>
+                active
+              </text>
+            </div>
           </div>
-        </div>
-        <div className='card'>
-          <img src="./src/images/image mask2.jpg"/>
-          <text className='cardtext'>
-          intibiome agecare dryness relief intimate wash
-          </text>
-          <div className='cardsmallblock' style={{backgroundColor: '#EE6381'}} >
-            <text className='smallblocktext'>
-              agecare
+          <div className='card'>
+            <img src="./src/images/image mask2.jpg" style={{width: '100%', height: 'auto'}}/>
+            <text className='cardtext'>
+            intibiome agecare dryness relief intimate wash
             </text>
+            <div className='cardsmallblock' style={{backgroundColor: '#EE6381'}} >
+              <text className='smallblocktext'>
+                agecare
+              </text>
+            </div>
           </div>
         </div>
       </div>
-      <img src="./src/images/Asset22.jpg"/>
+      <img src="./src/images/Asset22.jpg" className='Asset22'/>
       <div className='block4'>
         <text className='keepup'>
         keep up to date with our discoveries
         </text>
         <div className='card2'>
-          <img src="./src/images/ScreenShot1.jpg"/>
+          <img src="./src/images/ScreenShot1.jpg" style={{width: '100%', height: 'auto'}}/>
           <text className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
         </div>
         <div className='card2'>
-          <img src="./src/images/ScreenShot2.jpg"/>
+          <img src="./src/images/ScreenShot2.jpg" style={{width: '100%', height: 'auto'}}/>
           <text  className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
         </div>
         <div className='card2'>
-          <img src="./src/images/ScreenShot3.jpg"/>
+          <img src="./src/images/ScreenShot3.jpg" style={{width: '100%', height: 'auto'}}/>
           <text className='card2text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </text>
