@@ -1,5 +1,5 @@
 # WebContent
-Technical test for a frontend developer internship. Created with Vite.js.
+Created with Vite.js.
 
 ## Prerequisites
 -Node.js (v14 or superior)
